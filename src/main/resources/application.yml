@@ -1,0 +1,11 @@
+spring:
+      application:
+            name: collaborator
+      main:
+            banner-mode: "off"
+
+mongo:
+      host: localhost
+      name: collaborator
+
+management.endpoints.web.exposure.include: "*"
