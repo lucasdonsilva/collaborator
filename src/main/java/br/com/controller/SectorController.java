@@ -12,8 +12,10 @@ import org.springframework.web.bind.annotation.RestController;
 
 import java.util.List;
 
+import static br.com.components.AppConstants.REQUEST_PATH_SECTOR;
+
 @RestController
-@RequestMapping("/sector")
+@RequestMapping(REQUEST_PATH_SECTOR)
 @Slf4j
 @AllArgsConstructor(onConstructor = @__(@Autowired))
 public class SectorController {

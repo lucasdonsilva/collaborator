@@ -1,0 +1,8 @@
+{
+    "cpf": 123456789,
+    "name": "Lucas",
+    "phone": 993600988,
+    "mail": "lucasdonsilva@gmail.com",
+    "age": 20,
+    "sector": { "id": 4 }
+}

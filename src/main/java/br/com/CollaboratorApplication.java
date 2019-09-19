@@ -16,7 +16,7 @@ import static java.util.Arrays.asList;
 @SpringBootApplication
 @EnableCaching
 @Slf4j
-public class ContributorApplication implements CommandLineRunner {
+public class CollaboratorApplication implements CommandLineRunner {
 
 	@Autowired
 	private SectorRepository repository;
@@ -37,6 +37,6 @@ public class ContributorApplication implements CommandLineRunner {
 	}
 
 	public static void main(String[] args) {
-		new SpringApplicationBuilder(ContributorApplication.class).run(args);
+		new SpringApplicationBuilder(CollaboratorApplication.class).run(args);
 	}
 }

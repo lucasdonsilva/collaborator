@@ -16,7 +16,6 @@ import java.util.ArrayList;
 import java.util.List;
 
 import static br.com.configuration.CacheConfiguration.CACHE_SECTORS;
-import static java.util.stream.Collectors.toList;
 
 @Service
 @AllArgsConstructor(onConstructor = @__(@Autowired))

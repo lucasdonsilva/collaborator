@@ -11,11 +11,12 @@ import org.springframework.web.bind.annotation.*;
 
 import javax.validation.Valid;
 
+import static br.com.components.AppConstants.REQUEST_PATH_COLLABORATOR;
 import static br.com.configuration.CacheConfiguration.CACHE_SECTORS;
 import static org.springframework.http.HttpStatus.CREATED;
 
 @RestController
-@RequestMapping("/collaborator")
+@RequestMapping(REQUEST_PATH_COLLABORATOR)
 @Slf4j
 @AllArgsConstructor(onConstructor = @__(@Autowired))
 public class CollaboratorController {
