@@ -20,7 +20,7 @@ import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.
 @RunWith(SpringJUnit4ClassRunner.class)
 @SpringBootTest
 @AutoConfigureMockMvc
-public class SectorControllerIT {
+public class SectorControllerTest {
 
     @Autowired
     private MockMvc mockMvc;
@@ -29,7 +29,7 @@ public class SectorControllerIT {
     private CollaboratorRepository collaboratorRepository;
 
     @Test
-    public void methodGetShouldReturnStatus200AndBodyWithSectorsWithContributorsOnlyNameAndMail() throws Exception{
+    public void methodGetShouldReturnStatus200AndBodyWithSectorsWithCollaboratorsOnlyNameAndMail() throws Exception{
 
         Collaborator c = generateCollaborator();
         c.setCpf(123L);
